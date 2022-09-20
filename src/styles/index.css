@@ -1,6 +1,87 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Inter', sans-serif;
   background: #23252c;
   color: #fff;
+}
+
+.container {
+  width: 315px;
+  height: 850px;
+  margin: 45px auto;
+  border-radius: 4px;
+  background: #1a1b21;
+}
+
+/* Layout */
+
+header {
+  text-align: center;
+}
+
+.email-btn {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 4px;
+  padding: 0.7em;
+}
+
+footer {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #161619;
+  margin-top: 3em;
+  border-radius: 4px;
+}
+
+footer > img {
+  width: 25px;
+  height: 25px;
+}
+
+/* Typography  */
+
+.full-name {
+  margin-bottom: 0;
+  font-size: 1.7em;
+}
+.job-description {
+  font-weight: 200;
+  font-size: 0.9em;
+  margin-top: 0.275em;
+  color: #f3bf99;
+}
+
+.website {
+  font-weight: 200;
+  font-size: 0.7em;
+  margin-bottom: 1.5em;
+}
+
+.about-title,
+.interests-title {
+  margin-bottom: 0;
+}
+
+.about-body,
+.interests-body {
+  margin: 0.5em 0.1em;
+}
+
+.about,
+.interests {
+  padding: 0em 1.7em;
+  margin-top: 1.5em;
+}
+
+.about-body,
+.interests-body {
+  font-weight: 200;
+  font-size: 0.9em;
 }
